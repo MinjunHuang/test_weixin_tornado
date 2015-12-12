@@ -9,7 +9,7 @@ import time
 
 def checksignature(signature, timestamp, nonce):
     args = []
-    args.append('ryanchen') ####这里输入你的Token
+    args.append('weafamily') ####这里输入你的Token
     args.append(timestamp)
     args.append(nonce)
     args.sort()
